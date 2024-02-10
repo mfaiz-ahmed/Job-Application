@@ -14,22 +14,59 @@
     <br /><br />
     <main class="container mt-5">
         <form class="form">
-            <div>
-                <label for="name">First Name</label><br />
-                <input class="mt-4" type="text" id="name" placeholder=" Enter First Name...">
-                <br /><br />
-                <label for="email">Email</label><br />
-                <input class="mt-4" type="email" id="email" placeholder=" Enter Email...">
-                
-                
-                
-                
-                
-                
-                
-                
-                
+            <div class="d-flex gap-5">
+                <div>
+                    <label for="fname">First Name</label><br />
+                    <input class="mt-4 box" type="text" id="fname" placeholder=" Enter First Name...">
+                    <br /><br />
+                    <label for="email">Email</label><br />
+                    <input class="mt-4 box" type="email" id="email" placeholder=" Enter Email...">
+                </div>
+                <div>
+                    <label for="lname">Last Name</label><br />
+                    <input class="mt-4 box" type="text" id="lname" placeholder=" Enter Last Name...">
+                    <br /><br />
+                    <label for="role">Job Role</label><br />
+                    <select class="select box mt-4" id="role">
+                        <option>Select Job Role</option>
+                        <option>Frontend Developer</option>
+                        <option>Backend Developer</option>
+                        <option>Full Stack Developer</option>
+                        <option>UI/UX Designer</option>
+                    </select>
+                </div>
             </div>
+                <label class="mt-5" for="address">Address</label>
+                <textarea  class=" mt-4 container textarea_control" id="address" cols="50" rows="4" placeholder=" Enter Address"></textarea>
+                    <div class="d-flex gap-5">
+                    <div>
+                        <label for="city">City</label><br />
+                        <input class="mt-4 box" type="text" id="city" placeholder=" Enter City Name...">
+                        <br /><br />
+                        <label for="dob">Date of Birth</label><br />
+                        <input class="mt-4 box" type="date" id="dob" placeholder=" Enter DOB...">
+                    </div>
+                    <div>
+                        <label for="pincode">Pincode</label><br />
+                        <input class="mt-4 box" type="number" id="pincode" placeholder=" Enter Pincode...">
+                        <br /><br />
+                        <label for="file">Upload Your CV</label><br />
+                        <input class="box mt-4 border border-secondary text-center" type="file" id="file">
+                    </div>
+                </div>
+                <div class="d-flex ">
+                    <button class="mt-5 button">Apply Now</button>
+                </div>
+
+                    
+
+
+                
+                
+                
+                
+                
+                
 
 
 
